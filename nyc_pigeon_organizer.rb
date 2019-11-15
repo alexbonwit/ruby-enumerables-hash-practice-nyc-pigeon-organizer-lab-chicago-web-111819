@@ -12,7 +12,11 @@ def nyc_pigeon_organizer(data)
         if !pigeon_hash[string] 
         pigeon_hash[string] = {}
         end
-        pigeon_hash[string][attribute] = []
+        if !pigeon_hash[string][attribute]
+          pigeon_hash[string][attribute] = []
+        else
+          pigeon_hash[string][attribute]
+        end
         pigeon_hash[string][attribute] << key.to_s
       end
       
