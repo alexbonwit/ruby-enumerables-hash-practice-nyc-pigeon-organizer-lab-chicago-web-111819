@@ -19,9 +19,8 @@ def nyc_pigeon_organizer(data)
     # binding.pry
   end
   pigeon_hash.each do |key, value|
-    pigeon_hash[key] = 
     #if 
-    
+    pigeon_hash[key] = 
   end
   
 end
