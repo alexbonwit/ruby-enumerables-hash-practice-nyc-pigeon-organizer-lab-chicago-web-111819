@@ -6,7 +6,7 @@ def nyc_pigeon_organizer(data)
   
   data.each do |attribute, values|
   
-    values.each do |key, value|
+    values.each do |key, names|
     
       value.each do |string| 
         if !pigeon_hash[string] 
