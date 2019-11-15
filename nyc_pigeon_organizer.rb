@@ -12,6 +12,7 @@ def nyc_pigeon_organizer(data)
         if !pigeon_hash[string] 
         pigeon_hash[string] = {}
         end
+        pigeon_hash[string][attribute] = key
         binding.pry
       end
       
