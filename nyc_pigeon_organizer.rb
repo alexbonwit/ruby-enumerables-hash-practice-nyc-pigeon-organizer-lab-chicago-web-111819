@@ -9,18 +9,14 @@ def nyc_pigeon_organizer(data)
     data[key].each do |key, value|
     
       value.each do |string| 
+        if string  
         pigeon_hash[string] = {}
+        end
         
       end
       
     end
     # binding.pry
   end
-  
-  
-  # data.reduce ({}) do |memo, (key, value)|
-  #   memo[key] =
-  #   memo
-  # end
   
 end
