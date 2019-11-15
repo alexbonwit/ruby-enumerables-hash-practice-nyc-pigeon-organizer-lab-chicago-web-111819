@@ -4,7 +4,7 @@ def nyc_pigeon_organizer(data)
   
   pigeon_hash = {}
   
-  data.each do |key, value|
+  data.each do |attribute, value|
   
     data[key].each do |key, value|
     
