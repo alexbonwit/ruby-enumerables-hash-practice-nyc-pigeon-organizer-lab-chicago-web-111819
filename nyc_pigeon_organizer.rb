@@ -20,6 +20,7 @@ def nyc_pigeon_organizer(data)
   end
   pigeon_hash.each do |key, value|
     pigeon_hash[key] = 
+    #if 
     
   end
   
