@@ -8,7 +8,7 @@ def nyc_pigeon_organizer(data)
   
     values.each do |key, names|
     
-      value.each do |string| 
+      names.each do |string| 
         if !pigeon_hash[string] 
         pigeon_hash[string] = {}
         end
