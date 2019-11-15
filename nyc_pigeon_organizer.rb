@@ -20,9 +20,6 @@ def nyc_pigeon_organizer(data)
       
     end
   end
-  # # pigeon_hash.each do |key, value|
-  # #   #if data[key][key][value].include? 'pigeon_hash[key]' then pigeon_hash[key] = value
-  # #   pigeon_hash[key] = 
-  # end
   binding.pry
+  pigeon_hash
 end
