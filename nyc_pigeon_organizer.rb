@@ -13,7 +13,7 @@ def nyc_pigeon_organizer(data)
         pigeon_hash[string] = {}
         end
         pigeon_hash[string][attribute] = key
-        binding.pry
+        
       end
       
     end
@@ -22,5 +22,5 @@ def nyc_pigeon_organizer(data)
   # #   #if data[key][key][value].include? 'pigeon_hash[key]' then pigeon_hash[key] = value
   # #   pigeon_hash[key] = 
   # end
-  
+  binding.pry
 end
